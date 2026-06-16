@@ -1,18 +1,21 @@
-# esp32.pio.template
+# TamanduCLI - Biblioteca de Dispositivo em C++
 
-Template with developer experience setup. PlatformIO + Cpp + CI/CD + Linter + Formatter.
+Biblioteca para integração com o TamanduCLI.
 
-> If the codebase using this template is not a library, remove the files: `library.json`, `build_test.cpp`, `.github/workflows/publish.yml`.
+## Recursos
 
-## Getting Started
+- Protocolo de comunicação (wire protocol) com o TamanduCLI.
+- Mapeamento de strings de comando para chamadas de função.
 
-1. Clone the repository
+## Primeiros passos
+
+1. Clone o repositório
 
 ```bash
 git clone https://github.com/platformio/esp32.pio.template.git
 ```
 
-2. Install PlatformIO Core (CLI)
+2. Instale o PlatformIO Core (CLI)
 
 [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation/index.html)
 
@@ -20,17 +23,17 @@ git clone https://github.com/platformio/esp32.pio.template.git
 pip install platformio
 ```
 
-3. Install PlatformIO IDE (VSCode with PlatformIO Extension)
+3. Instale o PlatformIO IDE (VSCode com a extensão PlatformIO)
 
 [PlatformIO IDE](https://docs.platformio.org/en/latest/integration/ide/vscode.html)
 
-4. Install the recommended extensions
+4. Instale as extensões recomendadas
 
-Look at the `.vscode/extensions.json` file to see the recommended extensions.
+Consulte o arquivo `.vscode/extensions.json` para ver as extensões recomendadas.
 
-> When you open the project in VSCode, it will automatically show the extensions to install.
+> Ao abrir o projeto no VSCode, as extensões a serem instaladas serão exibidas automaticamente.
 
-5. Run the commands to install the dependencies and build the project
+5. Execute os comandos para instalar as dependências e compilar o projeto
 
 ```bash
 pio install
